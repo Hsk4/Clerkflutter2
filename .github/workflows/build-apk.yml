@@ -24,7 +24,7 @@ jobs:
       - name: Set up Flutter SDK
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.27.4' # Locks stable build compliance for clerk_flutter constraints
+          flutter-version: '3.44.0' # Matches the Flutter SDK version that resolves the Gradle toolchain failure
           channel: 'stable'
           cache: true
 
